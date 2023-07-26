@@ -1,0 +1,125 @@
+#title{
+    background-color: black;
+    background-image: url(../img/tomatoes-g6d5ad871d_1920.jpg);
+    height: 600px;
+    color: white;
+}
+nav{
+    background-color:  #7671735d;
+    font-family: DokChampa;
+}
+#t-banner{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#b{
+    font-family: DokChampa;
+    font-size: 60px;
+}
+#n{
+    font-family: DokChampa;
+}
+#box-main{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+div #box-tarjetas{
+    padding-top: 50px;
+}
+.btn-propio{
+    background-color: black;
+    color: white;
+}
+.art{
+    height: 800px;
+    padding-top: 50px;
+}
+#a{
+    font-size: 70px;
+    font-family: Gabriola;
+}
+#l{
+    font-family: Georgia Pro;
+    font-size: 20px;
+}
+.caja2{
+    margin-left: 100px;
+}
+#arte{
+    float: right;
+    width: 400px;
+    margin-top: 120px;
+}
+.tarjetas{
+    /*background-image: url(../img/spices-g9fb9e93fd_1920.jpg); */
+    height: 500px;
+ padding-top: 50px;
+    padding-left: 150px;
+}
+.caja3{
+    background-color: purple;
+    max-width: 1000px;
+}
+.white-section{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #7D7669;
+    height: 280px;
+    color: white;
+}
+.postre{
+    min-height: 800px;
+    margin-top: 50px;
+}
+#cafe{
+    width: 500px;
+}
+.box-post{
+    background-image: url(../img/pancakes-gcf527e560_1920.jpg);
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    height: 1000px;
+}
+.post{
+    margin-top: 100px;
+    margin-left: 900px;
+}
+#p{
+    font-size: 100px;
+    font-family: Gabriola;
+}
+#s{
+    font-family: Georgia Pro;
+    font-size: 25px;
+    color: black;
+}
+.tarjetas-postre{
+    height: 500px;
+    padding-left: 150px;
+}
+footer{
+    background-color: #7D7669;
+    height: 300px;
+    padding-top: 80px;
+
+}
+ul{
+    text-decoration: none;
+}
+.foot{
+    margin-left: 100px;
+}
+.redes{
+    margin-left: 150px;
+
+}
+#t{
+    font-family: DokChampa;
+}
+#t-1{
+    font-family: DokChampa;
+}

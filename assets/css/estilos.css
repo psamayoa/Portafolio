@@ -1,0 +1,113 @@
+/* Modificaciones generales */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Courier New;
+}
+
+main{
+    background: white;
+}
+/* Navbar modificaciones */
+div .c{
+    background-color: #E4E4EF;
+}
+#k{
+    padding: 0;
+}
+/* Modificaciones div container */
+.ctamaño{
+    max-height: 929px;
+}
+/* modicicación primera imagen y contenedor*/
+#aument{
+    min-height: 929px;
+}
+div #t{
+        margin-bottom: 780px;
+        color: black;
+}
+div #a{
+        margin-bottom: 750px;
+        color: black; 
+}
+/* Modicicación segunda imagen y contenedor */
+div #tam{
+    margin-bottom: 6%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: x-large;
+}
+/* Modicicación tercera imagen y contenedor */
+div #col{
+    margin-bottom: 824px;
+    color: black;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+@keyframes circle-in-hesitate {
+    0% {
+      clip-path: circle(0%);
+    }
+    40% {
+      clip-path: circle(40%);
+    }
+    100% {
+      clip-path: circle(125%);
+    }
+  }
+  
+  [transition-style="in:circle:hesitate"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both;
+  }
+
+
+
+.header {
+    background: url(/assets/img/sobre.jpg) no-repeat center;
+    min-height: 500px;
+  }
+/* Página Sobre mi */
+.sobre{
+    margin-top: 80px;
+}
+/* Modificación de div por caja */
+.caja2{
+    margin: 50px;
+}
+/* Modificación de foto de perfil */
+#perfil{
+    float: right;
+    width: 300px;
+}
+h1 #mi{
+    text-align: center;
+}
+/* Modificación Secciones de información*/
+div .FA{
+    margin-top: 80px;
+}
+.caja2{
+    margin-top: 50px;
+}
+.caja5{
+    margin-top: 50px;
+}
+.caja6{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* Modificación pagina Contacto */
+div .cja{
+    margin-top: 200px;
+     position:absolute;;
+}
+#correo{
+    width: 30px;
+}
+.lin{
+    color: black;
+}

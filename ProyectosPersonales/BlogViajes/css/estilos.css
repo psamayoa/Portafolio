@@ -1,0 +1,69 @@
+/**  selectores 
+id, clase , universal 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M26 250L276 0L580.5 0L330.5 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)'%3e%3c/path%3e%3cpath d='M243.60000000000002 250L493.6 0L535.6 0L285.6 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)'%3e%3c/path%3e%3cpath d='M476.20000000000005 250L726.2 0L942.2 0L692.2 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)'%3e%3c/path%3e%3cpath d='M741.8000000000001 250L991.8000000000001 0L1185.3000000000002 0L935.3000000000001 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)'%3e%3c/path%3e%3cpath d='M1404 250L1154 0L863 0L1113 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)'%3e%3c/path%3e%3cpath d='M1201.4 250L951.4000000000001 0L870.4000000000001 0L1120.4 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)'%3e%3c/path%3e%3cpath d='M932.8 250L682.8 0L553.8 0L803.8 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)'%3e%3c/path%3e%3cpath d='M718.1999999999999 250L468.19999999999993 0L384.19999999999993 0L634.1999999999999 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)'%3e%3c/path%3e%3cpath d='M1204.9597238875658 250L1440 14.959723887565929L1440 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 250L235.04027611243407 250L 0 14.959723887565929z' fill='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+/** Asignando el alto de la imagen */
+height: 200px;
+/* centramos texto */
+text-align: center;
+color: white;
+/* el texto tiene que estar al centro del contenedor */
+line-height: 200px;
+}
+
+nav {
+    /* fondo de nav */
+    background-color: #3C4A71;
+    text-align: center;
+}
+nav ul li{
+     /* alinear los textos del nav */
+display: inline-block;
+list-style: none;
+color: white;
+margin: 10px;
+}
+
+.box-center{
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
+.seccion-tarjetas{
+display: flex;
+justify-content: space-around;
+}
+.tarjeta{
+    width: 20%;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.seccion-tarjetas img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: #3C4A71;
+    height: 300px;
+    padding-top: 80px;
+    color: white;
+
+}
+
+.redes{
+    margin-left: 400px;
+
+}
+#t{
+    font-family: DokChampa;
+}
+
